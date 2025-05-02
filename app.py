@@ -31,13 +31,13 @@ elif choice == '2':
 elif choice == '3':
     result = num1 * num2
     print (f"THE RESULT OF MULTIPLICATION IS:{result}")
-    # agar '3' choose kiya to multiplication hoga
+# agar '3' choose kiya to multiplication hoga
 
 elif choice == '4':
     if num2 != 0: # ye not equal to check krne k leye lagaya k num2 0 na ho warna error aayega cz division by zero is not possible
         result = num1 / num2
         print(f"The result of division is: {result}")
-     # agar '4' choose kiya, toh division hoga.
+# agar '4' choose kiya, toh division hoga.
     else :
         print("Error: A number cannot be divided by 0")
     # agar user ne num2 0 dya to ye error show hoga
